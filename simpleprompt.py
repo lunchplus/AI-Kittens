@@ -1,18 +1,3 @@
-""" 
-
-    COMM-12 CHATGPT CODE OUTPUT: PALINDROME CHECKER
-        May 2023
-    
-    Members: 
-        Gio Carlo Ciudadano
-        Lloyd Wallys Dela Cruz
-        Divine Grace Lavente
-        Ron Gerlan Naragdao
-        Chancy Ponce de Leon
-        Laviele Trias
-    
-"""
-
 # ChatGPT Prompt: Give me a Python program that checks if a user input string is a palindrome. 
 
 """
@@ -49,14 +34,20 @@ if is_palindrome(user_input):
 else:
     print("It is not a palindrome.")
 
-# Inputs used in the demo video:
-#   level
-#   lever
-#   l ev e l
-#   8080
-#   7007
-#   8 0 80
-#   6ix
-#   4oo4
-#   ())(
-#   $^$@$
+
+"""
+
+Inputs used in the demo video:
+
+1. level
+2. lever
+3. l ev e l
+4. 8080
+5. 7007
+6. 8 0 80
+7. 6ix
+8. 4oo4
+9. ())(
+10. $^$@$
+
+"""
