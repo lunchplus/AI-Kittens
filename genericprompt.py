@@ -29,15 +29,15 @@ print("Result:", result)
 
 Inputs used in the demo video:
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
+1. level
+2. lever
+3. l ev e l
+4. 8080
+5. 7007
+6. 8 0 80
+7. 6ix
+8. 4oo4
+9. ())(
+10. $^$@$
 
 """
