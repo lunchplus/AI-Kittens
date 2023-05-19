@@ -4,25 +4,35 @@
 
 ChatGPT Explanation:
 
-In this program, we define a function called reverse_string_if_first_char_occurs_more_than_once that takes a string as input. It checks if the count of the first character in the string is greater than 1 using the count method. If it is, the string is reversed using slicing (string[::-1]) and returned. Otherwise, the original string is returned.
+In this program, the is_palindrome function takes a word as input and performs the following steps:
 
-The program prompts the user to enter a string using the input function and stores it in the user_input variable. Then, it calls the reverse_string_if_first_char_occurs_more_than_once function with the user input as an argument. Finally, it prints the result.
+1. Removes any spaces in the word using the replace function.
+2. Converts the word to lowercase using the lower method.
+3. Checks if the word is equal to its reverse by comparing it to a reversed version of itself using the slicing syntax [::-1].
 
-Please note that the program assumes that the user will always provide a valid string as input.
+The program then prompts the user to enter a word or phrase and passes the input to the is_palindrome function. 
+Finally, it prints whether the input is a palindrome or not.
 
 """
 
-def reverse_string_if_first_char_occurs_more_than_once(string):
-    first_char = string[0]
-    if string.count(first_char) > 1:
-        reversed_string = string[::-1]
-        return reversed_string
-    else:
-        return string
+def is_palindrome(word):
+    # Remove spaces and convert to lowercase
+    word = word.replace(" ", "").lower()
 
-user_input = input("Enter a string: ")
-result = reverse_string_if_first_char_occurs_more_than_once(user_input)
-print("Result:", result)
+    # Check if the word is equal to its reverse
+    if word == word[::-1]:
+        return True
+    else:
+        return False
+
+# Get input from the user
+user_input = input("Enter a word or phrase: ")
+
+# Check if the input is a palindrome
+if is_palindrome(user_input):
+    print("It is a palindrome!")
+else:
+    print("It is not a palindrome.")
 
 
 """
